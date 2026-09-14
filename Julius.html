@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eksplorasi Kopi Arabika & Manual Brew</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fcf8f2;
+            color: #3e2723;
+        }
+
+        header {
+            background-color: #3e2723;
+            color: #f5f5f5;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            background-color: #4e342e;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #d7ccc8;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 30px auto;
+            background: #ffffff;
+            padding: 35px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #4e342e;
+            border-bottom: 2px solid #d7ccc8;
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+
+        h3 {
+            color: #5d4037;
+        }
+
+        .align-left { text-align: left; }
+        .align-center { text-align: center; }
+        .align-right { text-align: right; }
+
+        .highlight {
+            color: #d84315;
+            font-weight: bold;
+        }
+
+        .info-box {
+            background-color: #efebe9;
+            border-left: 5px solid #8d6e63;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #d7ccc8;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4e342e;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fbe9e7;
+        }
+
+        /* Images */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        /* Forms */
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #bcaaa4;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #6d4c41;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        button:hover {
+            background-color: #4e342e;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #3e2723;
+            color: #d7ccc8;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Website -->
+    <header>
+        <h1>Saya Suka Kopi</h1>
+    </header>
+
+    <!-- Menu Navigasi (Navbar) -->
+    <nav>
+        <ul>
+            <li><a href="#tentang">Tentang Arabika</a></li>
+            <li><a href="#metode">Metode Seduh</a></li>
+            <li><a href="#perbandingan">Perbandingan Metode</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <!-- Section 1: Paragraph & Formatting -->
+        <section id="tentang">
+            <h2>1. apa itu arabica</h2>
+
+            <p class="align-left">
+                <b>Rata Kiri:</b> Kopi Arabika (<i>Coffea arabica</i>) dikenal sebagai varietas kopi premium yang tumbuh di dataran tinggi (1.000–2.000 meter di atas permukaan laut). Biji Arabika memiliki keanekaragaman cita rasa yang sangat kaya, mulai dari nuansa <u>buah-buahan (fruity)</u>, <u>bunga (floral)</u>, hingga <u>kacang-kacangan (nutty)</u>.
+            </p>
+
+            <p class="align-center">
+                <i><b>Rata Tengah:</b> "Seduhan kopi terbaik berawal dari pemahaman atas karakter biji dan presisi rasio penyeduhan."</i>
+            </p>
+
+            <p class="align-right">
+                <u>Rata Kanan:</u> Penulis: <span class="highlight">L0S3_</span>
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="metode">
+            <h2>2. Varietas & Langkah Seduh Manual Brew</h2>
+
+            <h3>A. Single Origin Arabika Populer di Indonesia (Unordered List)</h3>
+            <ul>
+                <li>Arabika Gayo (Aceh) - Notes: Spice, Chocolaty, Medium Body</li>
+                <li>Arabika Kintamani (Bali) - Notes: Citrusy, Fruity, Clean Finish</li>
+                <li>Arabika Toraja (Sulawesi) - Notes: Earthy, Dark Chocolate, Herbal</li>
+                <li>Arabika Java Ijen (Jawa Timur) - Notes: Nutty, Sweet Acid, Floral</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="galeri">
+            <h2>3. Visualisasi Alat & Referensi Seduh</h2>
+            <p>
+                Pelajari lebih lanjut mengenai sains ekstraksi dan varietas kopi melalui tautan tepercaya berikut:
+                <br>
+                🔗 <a href="https://specialtycoffee.id/" target="_blank" rel="noopener">Specialty Coffee Association Indonesia</a>
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Section 4: Table -->
+        <section id="perbandingan">
+            <h2>4. Matriks Perbandingan Metode Manual Brew</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Metode Seduh</th>
+                        <th>Gilingan (Grind Size)</th>
+                        <th>Karakter Rasa Utama</th>
+                        <th>Tingkat Bodi (Body)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>V60 (Pour-Over)</td>
+                        <td>Medium-Coarse</td>
+                        <td>Clean, Acidity Menonjol, Fruity</td>
+                        <td>Light to Medium</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>French Press</td>
+                        <td>Coarse (Kasar)</td>
+                        <td>Bold, Sweetness, Rempah/Chocolate</td>
+                        <td>Heavy Body</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Aeropress</td>
+                        <td>Medium-Fine</td>
+                        <td>Seimbang (Balanced), Intensitas Tinggi</td>
+                        <td>Medium to Heavy</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Kalita Wave</td>
+                        <td>Medium</td>
+                        <td>Konsisten, Sweet, Smooth Finish</td>
+                        <td>Medium Body</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+    </div>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
