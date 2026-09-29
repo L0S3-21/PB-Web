@@ -43,7 +43,6 @@ body {
     padding : 0%;
 }
 
-/* Posisikan Navbar di Tengah */
 .navbar-center {
     display: flex;
     align-items: center;
@@ -69,10 +68,9 @@ body {
 }
 
 .header-spacer {
-    width: 120px; /* Menjaga keseimbangan tata letak logo */
+    width: 120px; 
 }
 
-/* HERO SECTION */
 .hero-section {
     padding: 60px 8% 80px 8%;
 }
@@ -118,7 +116,6 @@ body {
     max-width: 420px;
 }
 
-/* HERO IMAGE & QUOTE */
 .hero-image-wrapper {
     position: relative;
     flex: 1;
@@ -155,7 +152,6 @@ body {
     text-align: center;
 }
 
-/* SECTIONS COMMON STYLES */
 .section {
     padding: 60px 8%;
 }
@@ -206,7 +202,6 @@ body {
     color: var(--text-muted);
 }
 
-/* GRIDS */
 .grid-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -225,7 +220,6 @@ body {
     gap: 25px;
 }
 
-/* BIODATA CARDS */
 .info-card {
     background-color: var(--bg-card);
     padding: 25px 20px;
@@ -263,7 +257,6 @@ body {
     color: var(--text-dark);
 }
 
-/* EDUCATION CARDS */
 .edu-card {
     background-color: var(--bg-card);
     padding: 30px 20px;
@@ -292,7 +285,6 @@ body {
     margin-top: 4px;
 }
 
-/* HOBI / MEDIA CARDS */
 .media-card {
     background-color: var(--bg-card);
     padding: 20px;
@@ -452,7 +444,6 @@ body {
     margin-top: 15px;
 }
 
-/* RESPONSIVE DESIGN */
 @media (max-width: 992px) {
     .grid-4 {
         grid-template-columns: repeat(2, 1fr);
