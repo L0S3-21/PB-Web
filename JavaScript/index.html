@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 4 - JavaScript</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        .header { border-bottom: 2px solid #333; padding-bottom: 10px; margin-bottom: 20px; }
+        .step { margin-bottom: 15px; }
+        label { display: inline-block; width: 140px; color: navy; }
+        input[type="text"], input[type="number"], select { padding: 4px; width: 250px; }
+        button { padding: 5px 15px; margin-top: 10px; }
+        .result-box { margin-top: 20px; padding: 15px; border: 1px solid #ccc; background-color: #f9f9f9; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h3>Tugas 4 - JavaScript</h3>
+        <p><strong>Nama:</strong> Julius Samuel</p>
+        <p><strong>NIM:</strong> 255314129</p>
+        <img src="PXL_20240424_052210856.jpg" alt="Foto Mahasiswa" width="100" style="border: 1px solid #ccc;">
+    </div>
+
+    <div id="app">
+        <div id="step1" class="step">
+            <div>
+                <label>Nama :</label>
+                <input type="text" id="inputNama" placeholder="Masukkan Nama">
+            </div>
+            <br>
+            <div>
+                <label>Jumlah Pilihan :</label>
+                <input type="number" id="inputJml" min="1" placeholder="-">
+            </div>
+            <br>
+            <button onclick="prosesStep1()">OK</button>
+        </div>
+
+        <div id="step2" class="step" style="display: none;">
+            <div id="containerPilihanInput"></div>
+            <button onclick="prosesStep2()">OK</button>
+        </div>
+
+        <div id="step3" class="step" style="display: none;">
+            <p><strong>Pilihan :</strong></p>
+            <div id="containerRadio"></div>
+            <br>
+            <button onclick="prosesStep3()">OK</button>
+        </div>
+
+        <div id="step4" class="step" style="display: none;">
+            <div>
+                <label>Email :</label>
+                <input type="text" id="inputEmail" placeholder="Email@gmail.com">
+            </div>
+            <br>
+            <button onclick="prosesStep4()">OK</button>
+        </div>
+
+        <div id="step5" class="result-box" style="display: none;">
+            <p id="outputTeks"></p>
+        </div>
+    </div>
+    
+    <script src="tugas4.js"></script>
+</body>
+</html>
